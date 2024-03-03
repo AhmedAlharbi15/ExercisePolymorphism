@@ -3,6 +3,26 @@ class Car implements Vehicle {
     private int days;
     private final double dailyRate = 50.0;
 
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getDays() {
+        return days;
+    }
+
+    public void setDays(int days) {
+        this.days = days;
+    }
+
+    public double getDailyRate() {
+        return dailyRate;
+    }
+
     public Car(String model, int days) {
         this.model = model;
         this.days = days;
