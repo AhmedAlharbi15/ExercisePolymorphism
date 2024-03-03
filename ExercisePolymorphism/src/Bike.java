@@ -3,6 +3,26 @@ class Bike implements Vehicle {
     private int hours;
     private final double hourlyRate = 10.0;
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    public void setHours(int hours) {
+        this.hours = hours;
+    }
+
+    public double getHourlyRate() {
+        return hourlyRate;
+    }
+
     public Bike(String brand, int hours) {
         this.brand = brand;
         this.hours = hours;
